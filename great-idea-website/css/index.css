@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
@@ -64,3 +64,79 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+main {
+	width: 900px;
+	text-align: center;
+	margin-top:10px;
+	margin-left: 16%;
+}
+
+a{
+	display: inline-block;
+	font-style: normal;
+	color: darkgray;
+	margin-right: 64.75px;
+	vertical-align: middle;
+}
+
+nav{
+	display:inline-block;
+	margin-bottom:40px;
+	width:900px;
+	align-content: center;
+}
+
+.logo{	
+	vertical-align: middle;
+}
+
+
+header div{
+	font-family:'Bangers';
+	font-size:4.75em;
+	text-align: center;
+	display: inline-block;
+	margin-bottom:40px;
+	margin-top: 20px;
+	vertical-align: -webkit-baseline-middle;
+	margin-right: 20px;
+	margin-left:50px;
+}
+
+hr{
+	border-width:4px;
+}
+
+
+body section{
+	display: inline-block;
+	height:100px;
+	width:49%;
+	text-align: left;
+	margin-bottom: 40px;
+	margin-top:20px;
+}
+
+body section2{
+	display: inline-block;
+	height:130px;
+	width:32%;
+	text-align: left;
+	margin-bottom: 40px;
+	margin-top:30px;
+}
+
+body address {
+	display: inline-block;
+	height:150px;
+	width:100%;
+	text-align: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left:0%;
+}
+
+footer{
+text-align: center;
+margin-bottom: 20px;
+}
